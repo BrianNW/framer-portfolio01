@@ -1,6 +1,9 @@
 const Navbar = () => {
     return (
-        <div className = ''> Navbar</div>
+        <div className = 'h-full flex items-center justify-between'>
+            
+        
+        </div>
     )
 }
 
