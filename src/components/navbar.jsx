@@ -16,7 +16,12 @@ const Navbar = () => {
                     <div clasName="w-10 h-1 bg-black rounded"></div>    
                     <div clasName="w-10 h-1 bg-black rounded"></div>    
                     <div clasName="w-10 h-1 bg-black rounded"></div>    
-                </button>                
+                </button>  
+                
+                {/* MENU LIST  */}
+                <div className=''>
+                    
+                </div>
             </div>
     )
 }
