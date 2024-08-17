@@ -29,7 +29,7 @@ const Navbar = () => {
                 {/* MENU LIST  */}
                 <div className=''>
                     {links.map(link=> {
-                        <Link href="link.url">{link.title}</Link>
+                        <Link href="link.url" key={link.title}>{link.title}</Link>
                     })}
                 </div>
             </div>
