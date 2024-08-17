@@ -28,7 +28,9 @@ const Navbar = () => {
                 
                 {/* MENU LIST  */}
                 <div className=''>
-
+                    {links.map(link=> {
+                        <Link href="link.url">{link.title}</Link>
+                    })}
                 </div>
             </div>
     )
