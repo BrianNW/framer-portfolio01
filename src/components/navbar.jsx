@@ -23,9 +23,9 @@ const Navbar = () => {
             <div className='2'></div>
                 {/* Menu Button */}
                 <button className="w-10 h-8 flex flex-col justify-between">
-                    <div clasName="w-10 h-1 bg-black rounded"></div>    
-                    <div clasName="w-10 h-1 bg-black rounded"></div>    
-                    <div clasName="w-10 h-1 bg-black rounded"></div>    
+                    <div className="w-10 h-1 bg-black rounded"></div>    
+                    <div className="w-10 h-1 bg-black rounded"></div>    
+                    <div className="w-10 h-1 bg-black rounded"></div>    
                 </button>  
                 
                 {/* MENU LIST  */}
