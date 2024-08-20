@@ -1,13 +1,15 @@
 import Link from 'next/link';
 
-const Navbar = () => {
 
-    const links = [
-        {url: "/", title: "Home"},
-        {url: "/about", title: "About"},
-        {url: "/portfolio", title: "Portfolio"},
-        {url: "/contact", title: "Contact"},
-    ]
+const links = [
+    {url: "/", title: "Home"},
+    {url: "/about", title: "About"},
+    {url: "/portfolio", title: "Portfolio"},
+    {url: "/contact", title: "Contact"},
+]
+
+
+const Navbar = () => {
 
     return (
         <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48'>
