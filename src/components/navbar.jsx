@@ -30,6 +30,12 @@ const Navbar = () => {
                 </Link>
             </div>
 
+            <div className="">
+                <Link href="#">
+                    <Image src="/github.png" alt="" width={24} height={24}/>
+                </Link>
+            </div>
+
             {/* Responsive Menu */}
             <div className='md:hidden'>
                 {/* Menu Button */}
