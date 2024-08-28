@@ -1,6 +1,5 @@
 "use client"
 import { useState } from 'react'
-
 import Link from 'next/link';
 
 const links = [
@@ -32,7 +31,7 @@ const Navbar = () => {
 
             <div className="">
                 <Link href="#">
-                    <Image src="/github.png" alt="" width={24} height={24}/>
+                    <img src="/github.png" alt="" width={24} height={24}/>
                 </Link>
             </div>
 
