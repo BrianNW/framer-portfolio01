@@ -1,6 +1,6 @@
 import React from 'react'
 
-const navLink = () => {
+const navLink = ({link}) => {
   return (
     <div>navLink</div>
   )
