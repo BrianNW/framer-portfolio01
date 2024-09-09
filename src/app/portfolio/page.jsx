@@ -1,6 +1,6 @@
 const PortfolioPage = () => {
     return (
-        <div className=''> PortfolioPage</div>
+        <div className=''> Portfolio Page</div>
     )
 }
 
