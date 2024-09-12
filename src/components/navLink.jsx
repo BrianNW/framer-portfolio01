@@ -1,7 +1,7 @@
 import React from 'react'
 "use client"
 
-const navLink = ({link}) => {
+const NavLink = ({link}) => {
 
   const pathName = usePathName()
 
@@ -10,4 +10,4 @@ const navLink = ({link}) => {
   )
 }
 
-export default navLink
+export default NavLink
