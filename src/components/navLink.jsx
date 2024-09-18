@@ -1,6 +1,9 @@
 import React from 'react'
 "use client"
 
+import Link from 'next/link';
+import {usePathName} from 'next/navigation'
+
 const NavLink = ({link}) => {
 
   const pathName = usePathName()
