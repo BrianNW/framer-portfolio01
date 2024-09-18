@@ -1,12 +1,12 @@
-import React from 'react'
 "use client"
-
+import {usePathname} from 'next/navigation'
+import React from 'react'
 import Link from 'next/link';
-import {usePathName} from 'next/navigation'
+
 
 const NavLink = ({link}) => {
 
-  const pathName = usePathName()
+  const pathName = usePathname()
 
   console.log(pathName)
 
