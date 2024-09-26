@@ -24,7 +24,7 @@ const Navbar = () => {
                 ))}
             </div>
            {/* Logo */}
-            <div className='md:hidden lg:flex w-1/3 xl:justify-center'>
+            <div className='md:hidden xl:flex w-1/3 xl:justify-center'>
                 <Link href="/" className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center">
                     <span className="text-white">Briannw</span>
                     <span className ="w-12 h-8 rounded bg-white text-black flex items-center justify-center">.com</span>
