@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Homepage = () => {
   return <div className='flex flex-col'>
     {/* IMAGE CONTAINER */}
