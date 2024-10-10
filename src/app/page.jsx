@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const Homepage = () => {
-  return <div className='flex flex-col'>
+  return <div className='h-full flex flex-col'>
     {/* IMAGE CONTAINER */}
       <div className='h-1/2 relative'>
       <Image src="/hero.png" alt="" fill className="object-contain"/>
