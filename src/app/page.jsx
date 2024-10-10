@@ -13,8 +13,8 @@ const Homepage = () => {
     <p>Lorem Ipsum placeholder until I figure out better text to add</p>
     {/* BUTTONS */}
     <div>
-      <button></button>
-      <button></button>
+      <button>Portfolio</button>
+      <button>Contact</button>
     </div>
     </div>
   </div>
