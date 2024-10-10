@@ -10,6 +10,7 @@ const Homepage = () => {
     <div className='h-1/2'>
     {/* TITLE */}
     <h1>Transforming ideas into pixel perfect reality</h1>
+    <p>Lorem Ipsum placeholder until I figure out better text to add</p>
     </div>
   </div>
 };
