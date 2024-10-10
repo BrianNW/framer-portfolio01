@@ -7,7 +7,10 @@ const Homepage = () => {
       <Image src="/hero.png" alt="" fill className="object-contain"/>
       </div>
     {/* TEXT CONTAINER */}
-    <div className='h-1/2'></div>
+    <div className='h-1/2'>
+    {/* TITLE */}
+    <h1>Transforming ideas into pixel perfect reality</h1>
+    </div>
   </div>
 };
 
