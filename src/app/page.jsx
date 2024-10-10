@@ -11,6 +11,11 @@ const Homepage = () => {
     {/* TITLE */}
     <h1>Transforming ideas into pixel perfect reality</h1>
     <p>Lorem Ipsum placeholder until I figure out better text to add</p>
+    {/* BUTTONS */}
+    <div>
+      <button></button>
+      <button></button>
+    </div>
     </div>
   </div>
 };
