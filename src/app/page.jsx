@@ -12,7 +12,7 @@ const Homepage = () => {
     <h1 className='text-4xl font-bold'>Transforming ideas into pixel perfect reality</h1>
     <p>Lorem Ipsum placeholder until I figure out better text to add</p>
     {/* BUTTONS */}
-    <div>
+    <div className="flex gap-4">
       <button>Portfolio</button>
       <button>Contact</button>
     </div>
