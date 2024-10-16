@@ -7,7 +7,7 @@ const Homepage = () => {
       <Image src="/hero.png" alt="" fill className="object-contain"/>
       </div>
     {/* TEXT CONTAINER */}
-    <div className='h-1/2'>
+    <div className='h-1/2 flex flex-column gap-8 items-center justify-center'>
     {/* TITLE */}
     <h1>Transforming ideas into pixel perfect reality</h1>
     <p>Lorem Ipsum placeholder until I figure out better text to add</p>
