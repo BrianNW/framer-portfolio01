@@ -20,27 +20,28 @@ const Navbar = () => {
         closed: {
             rotate: 0,            
         },
-        open: {
+        opened: {
             rotate: 45,
-            backgroundColor: "rgb(255,255,255)"
-        }
+            backgroundColor: "rgb(255,255,255)",
+        },
     }
     const centerVariants = {
         closed: {
             opacity:1,           
         },
-        open: {
-            opacity:0
-        }
+        opened: {
+            opacity:0,
+        },
     }
     const bottomVariants = {
         closed: {
             rotate:0,           
         },
-        open: {
-            rotate:-45
-        }
-    }
+        opened: {
+            rotate:-45,
+            backgroundColor: "rgb(255,255,255)",
+        },
+    };
 
     return (
         <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
