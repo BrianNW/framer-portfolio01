@@ -21,7 +21,6 @@ const TestPage = () => {
      variants={variants}
      animate="variant1"
      transition={{delay:2, duration: 4}}>
-
      </motion.div>
     </div>
   )
