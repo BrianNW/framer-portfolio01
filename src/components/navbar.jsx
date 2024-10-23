@@ -16,6 +16,16 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false)
 
+    const topVariants = {
+        closed: {
+            rotate: 0,            
+        },
+        open: {
+            rotate: 45,
+            backgroundColor: "rgb(255,255,255)"
+        }
+    }
+
     return (
         <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
 
