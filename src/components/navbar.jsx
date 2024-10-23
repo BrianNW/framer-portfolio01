@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link';
 import NavLink from './NavLink'
+import {motion} from 'framer-motion'
 
 const links = [
     {url: "/", title: "Home"},
@@ -50,9 +51,9 @@ const Navbar = () => {
             <div className='md:hidden'>
                 {/* Menu Button */}
                 <button className="w-10 h-8 flex flex-col justify-between z-50 relative" onClick={() => setOpen((prev) => !prev)}>
-                    <div className="w-10 h-1 bg-white rounded"></div>    
-                    <div className="w-10 h-1 bg-white rounded"></div>    
-                    <div className="w-10 h-1 bg-white rounded"></div>    
+                    <motion.div className="w-10 h-1 bg-white rounded"></motion.div>    
+                    <motion.div className="w-10 h-1 bg-white rounded"></motion.div>    
+                    <motion.div className="w-10 h-1 bg-white rounded"></motion.div>    
                 </button>  
                 
                 {/* MENU LIST  */}
