@@ -95,7 +95,7 @@ const Navbar = () => {
                 
                 {/* MENU LIST  */}
                 {open && (                
-                    <motion.div variants={listVariants} inital="closed" animate="opened" className='absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl'>
+                    <motion.div variants={listVariants} inital="closed" animate="opened" className='absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40'>
                         {links.map( link => (
                             <Link href={link.url} key={link.title}>
                                 {link.title}
