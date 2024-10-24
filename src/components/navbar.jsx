@@ -43,6 +43,16 @@ const Navbar = () => {
         },
     };
 
+    // menu list below explained: if closed, position will be out of user screen/viewport.  if opened, set x position to 0
+    const listVariants = {
+        closed: {
+            x: "100vw"
+        },
+        opened: {
+            x: 0,
+        },
+    };
+
     return (
         <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
 
