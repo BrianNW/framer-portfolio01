@@ -24,7 +24,7 @@ const Navbar = () => {
             rotate: 45,
             backgroundColor: "rgb(255,255,255)",
         },
-    }
+    };
     const centerVariants = {
         closed: {
             opacity:1,           
@@ -32,7 +32,7 @@ const Navbar = () => {
         opened: {
             opacity:0,
         },
-    }
+    };
     const bottomVariants = {
         closed: {
             rotate:0,           
@@ -46,10 +46,25 @@ const Navbar = () => {
     // menu list below explained: if closed, position will be out of user screen/viewport.  if opened, set x position to 0
     const listVariants = {
         closed: {
-            x: "100vw"
+            x: "100vw",
         },
         opened: {
             x: 0,
+            transition: {
+                when: "beforeChildren",
+                staggerChildren: 0.2,
+            },
+        },
+    };
+
+    const listItemVariants = {
+        closed: {
+            x: -10,
+            opacity: 0,
+        },
+        opened: {
+            x: 0,
+            opacity: 1,
         },
     };
 
@@ -97,7 +112,7 @@ const Navbar = () => {
                 {open && (                
                     <motion.div variants={listVariants} inital="closed" animate="opened" className='absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40'>
                          {links.map( link => (
-                           <motion.div className="" key={link.title}>
+                           <motion.div variants={listItemVariants} className="" key={link.title}>
                             <Link href={link.url} >{link.title}</Link>   
                             </motion.div>         
                         ))}
