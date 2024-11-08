@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* 100 vh and 100vw */}
            
-        <TransitionProvider />
+        <TransitionProvider> {children} </TransitionProvider>
       </body>
     </html>
   );
