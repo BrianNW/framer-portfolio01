@@ -3,11 +3,13 @@
 import { AnimatePresence } from 'framer-motion'
 import React from 'react'
 import Navbar from './navbar'
+import {motion} from 'framer-motion';
 
 const TransitionProvider = ({children}) => {
   return (
     <AnimatePresence>
         <div className="w-screen h-screen bg-gradient-to-b from-blue-50 to-red-100">
+          <motion.div />
           <div className ="h-24">
             <Navbar />
           </div>
