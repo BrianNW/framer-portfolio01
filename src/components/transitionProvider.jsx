@@ -17,7 +17,7 @@ const TransitionProvider = ({children}) => {
           animate={{height:"0vh"}} exit={{height:"140vh"}} transition={{duration:0.5, ease:"easeOut"}}/>
           
           <motion.div className="h-screen w-screen fixed bg-red-500 rounded-t-[100px] bottom-0 z-40"
-          initial={{height:"140vh"}} animate={{height:"0vh, transition: {delay: 2}"}}/>
+          initial={{height:"140vh"}} animate={{height:"0vh", transition: {delay: 2}}}/>
           <div className ="h-24">
             <Navbar />
           </div>
