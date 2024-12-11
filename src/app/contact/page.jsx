@@ -1,3 +1,7 @@
+"use client"
+
+import {motion} from "framer-motion"
+
 const ContactPage = () => {
     return <motion.div 
     className="h-full" 
