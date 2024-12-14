@@ -13,7 +13,7 @@ const AboutPage = () => {
         {/* CONTAINER */}
         <div className="">
             {/* TEXT CONTAINER */}
-            <div className="">
+            <div className="p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24">
                 {/* BIOGRAPHY CONTAINER */}
                 <div className=""></div>
                 {/* SKILLS CONTAINER */}
