@@ -15,10 +15,11 @@ const AboutPage = () => {
             {/* TEXT CONTAINER */}
             <div className="">
                 {/* BIOGRAPHY CONTAINER */}
-
+                <div className=""></div>
                 {/* SKILLS CONTAINER */}
-
+                <div className=""></div>
                 {/* EXPERIENCE CONTAINER */}
+                <div className=""></div>
             </div>
 
             {/* SVG CONTAINER */}
