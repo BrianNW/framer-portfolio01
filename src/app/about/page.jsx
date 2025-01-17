@@ -20,6 +20,7 @@ const AboutPage = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Inventore laboriosam, rem eligendi officia nihil, deserunt nisi ex neque corrupti id eos maiores, aliquam maxime fugit aspernatur amet ut culpa dignissimos!
                     </p>
+                    {/* BIOGRAPHY SIGNATURE */}
                     <span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia harum et.
                     </span>
