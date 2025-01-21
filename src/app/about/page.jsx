@@ -28,13 +28,18 @@ const AboutPage = () => {
                     
                 {/* SVG BUTTON */}
                 <div className="self-end">
-                        <svg>tMy Signature</svg>
+                        <svg>My Signature</svg>
                     </div>
                 </div>
                 {/* SKILLS CONTAINER */}
                 <div className="flex flex-col gap-12 justify-center">Skills</div>
                 {/* SKILLS TITLE */}
                 <h1 className="font-bold text-2xl">SKILLS</h1>
+
+                {/* SKILLS LIST */}
+                <div className="">Skills</div>
+                {/* SKILLS SCROLL SVG */}
+                <svg>My Signature</svg>
 
 
                 {/* EXPERIENCE CONTAINER */}
