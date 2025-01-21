@@ -33,6 +33,10 @@ const AboutPage = () => {
                 </div>
                 {/* SKILLS CONTAINER */}
                 <div className="flex flex-col gap-12 justify-center">Skills</div>
+                {/* SKILLS TITLE */}
+                <h1 className="font-bold text-2xl">SKILLS</h1>
+
+
                 {/* EXPERIENCE CONTAINER */}
                 <div className="">Experience</div>
             </div>
