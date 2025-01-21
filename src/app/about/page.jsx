@@ -38,8 +38,11 @@ const AboutPage = () => {
 
                 {/* SKILLS LIST */}
                 <div className="">Skills</div>
+                    <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                        Javascript
+                    </div>
                 {/* SKILLS SCROLL SVG */}
-                <svg>My Signature</svg>
+                <svg>Skill svg placeholder</svg>
 
 
                 {/* EXPERIENCE CONTAINER */}
