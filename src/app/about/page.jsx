@@ -32,18 +32,27 @@ const AboutPage = () => {
                     </div>
                 </div>
                 {/* SKILLS CONTAINER */}
-                <div className="flex flex-col gap-12 justify-center">Skills</div>
+                <div className="flex flex-col gap-12 justify-center">
                 {/* SKILLS TITLE */}
                 <h1 className="font-bold text-2xl">SKILLS</h1>
-
                 {/* SKILLS LIST */}
-                <div className="">Skills</div>
+                <div className="">
                     <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                         Javascript
                     </div>
-                {/* SKILLS SCROLL SVG */}
-                <svg>Skill svg placeholder</svg>
-
+                    <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                        React
+                    </div>
+                    <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                        Python
+                    </div>
+                    <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                        MySQL
+                    </div>
+                </div>
+                    {/* SKILLS SCROLL SVG */}
+                    <svg>Skill svg placeholder</svg>
+                </div>
 
                 {/* EXPERIENCE CONTAINER */}
                 <div className="">Experience</div>
