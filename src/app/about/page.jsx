@@ -137,12 +137,44 @@ const AboutPage = () => {
                         {/* CENTER */}
                         <div className="">
                         {/* LINE */}
-                        <div className="">
-
+                        <div className=""> 
+                            <div className="">
+                                {/* LINE CIRCLE */}
+                            </div>
                         </div>                        
                     </div>
-                    {/* RIGHT */}
-                    </div>
+                        {/* RIGHT */}
+                        <div className=""></div>
+                        </div>
+                        {/* EXPERIENCE LIST ITEM */} 
+                        <div className="">
+                        {/* LEFT */}                       
+                        <div className="">
+                            
+                        </div>
+                            {/* CENTER */}
+                            <div className="">
+                            {/* LINE */}
+                            <div className=""> 
+                                <div className="">
+                                    {/* LINE CIRCLE */}
+                                </div>
+                            </div>                        
+                        </div>
+                        {/* RIGHT */}
+                        <div className="">
+                            {/* JOB TITLE */}
+                            <div className="">Freelancer</div>
+                            {/* JOB DESC */}
+                            <div className="">
+                                Current employment
+                            </div>
+                            {/* JOB DATE */}
+                            <div className="">2024-Present</div>
+                            {/* JOB COMPANY */}
+                            <div className="">Self Employed</div>
+                        </div>
+                     </div>
                   </div>
                 </div>
             </div>
