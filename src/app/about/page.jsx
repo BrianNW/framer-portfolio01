@@ -11,9 +11,9 @@ const AboutPage = () => {
         transition={{duration:1}}> 
 
         {/* CONTAINER */}
-        <div className="">
+        <div className="h-full overflow-scroll lg:flex">
             {/* TEXT CONTAINER */}
-            <div className="p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64">
+            <div className="p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 w-2/3 xl:1/2">
                 {/* BIOGRAPHY CONTAINER */}
                 <div className="flex flex-col gap-12 justify-center">
                     {/* BIOGRAPHY TITLE */}
@@ -119,7 +119,7 @@ const AboutPage = () => {
             
           >
             {/* EXPERIENCE TITLE */}
-            
+            <h1 className="font-bold text-2xl">EXPERIENCE</h1>
               {/* EXPERIENCE LIST ITEM */}
               <div className="flex justify-between h-48">
                 {/* LEFT */}
@@ -215,7 +215,7 @@ const AboutPage = () => {
           </div>
         </div>
             {/* SVG CONTAINER */}
-            <div className="hidden"></div>
+            <div className="hidden lg:block w-1/3 xl:1/2"></div>
 
         </div>
         </motion.div>
