@@ -1,6 +1,7 @@
 "use client"
 
 import {motion} from "framer-motion"
+import Brain from "@/components/brain"
 
 const AboutPage = () => {
     return (
@@ -215,7 +216,9 @@ const AboutPage = () => {
           </div>
         </div>
             {/* SVG CONTAINER */}
-            <div className="hidden lg:block w-1/3 xl:1/2"></div>
+            <div className="hidden lg:block w-1/3 sticky top-0 z-index-30 xl:1/2">
+              <Brain />
+            </div>            
 
         </div>
         </motion.div>
