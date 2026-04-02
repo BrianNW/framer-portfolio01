@@ -1,9 +1,15 @@
 "use client"
 
-import {motion} from "framer-motion"
+import {motion, useScroll} from "framer-motion"
 import Brain from "@/components/brain"
+import { useRef } from "react"
 
 const AboutPage = () => {
+
+  const containerRef = useRef()
+
+  const {scrollYProgress} = useScroll({container:containerRef})
+
     return (
         <motion.div 
         className="h-full" 
@@ -12,7 +18,7 @@ const AboutPage = () => {
         transition={{duration:1}}> 
 
         {/* CONTAINER */}
-        <div className="h-full overflow-scroll lg:flex">
+        <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
             {/* TEXT CONTAINER */}
             <div className="p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
                 {/* BIOGRAPHY CONTAINER */}
